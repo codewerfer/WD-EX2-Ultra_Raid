@@ -75,3 +75,8 @@ Connect with `ssh sshd@{ip}`.
 
 ## Check RAID Status
 `cat /proc/mdstat`
+
+`mdadm /dev/md2 --detail`
+
+> Compare with `mdadm /dev/md1 --detail`
+> There is a UUID. Sure we can use that later.
